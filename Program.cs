@@ -1,4 +1,5 @@
 ﻿using ScholarshipApplicationProject.Console.Models;
+using ScholarshipApplicationProject.Console.Repos;
 
 
 Console.WriteLine("1. feladat");
@@ -29,3 +30,7 @@ Console.WriteLine("4. feladat");
 odon.Win(20000);
 odon.Win(30000);
 Console.WriteLine(odon);
+
+ScholarshipRepo repo = new();
+Console.WriteLine($"Ösztöndíjasok száma: {repo.GetNumberOfScholarships()}");
+
