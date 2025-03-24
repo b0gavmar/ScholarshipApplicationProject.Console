@@ -17,6 +17,8 @@
             _amount = 0;
         }
         public string Name { get; set; }
+        public decimal Amount { get => _amount; set => _amount = value; }
+        public string Email { get => _email; set => _email = value; }
 
         public void Win(decimal amount)
         {
