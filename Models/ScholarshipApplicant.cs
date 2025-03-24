@@ -1,5 +1,6 @@
 ﻿namespace ScholarshipApplicationProject.Console.Models
 {
+    //konzolos doga 1. része
     public class ScholarshipApplicant
     {
         private decimal _amount;
